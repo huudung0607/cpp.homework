@@ -53,11 +53,11 @@ int main()
 	}
 	if (k == 3)
 	{
-		int dis = 0;
 		int max = INT_MIN;
 		int index = -1;
 		for (int i = 0; i < n; i++)
 		{
+			int dis = 0;
 			int dis = abs(a[i] - x);
 			if (dis > max)
 			{
